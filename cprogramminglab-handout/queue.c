@@ -25,6 +25,8 @@
 queue_t *q_new()
 {
     queue_t *q =  malloc(sizeof(queue_t));
+
+    ///adding comments for commit
     /* What if malloc returned NULL? */
     q->head = NULL;
     return q;
